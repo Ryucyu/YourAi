@@ -23,17 +23,6 @@ class ChatBoxView(ModelViewSet):
     filter_backends = [OrderingFilter]
     ordering_fields = ['created_time']
 
-    def destroy(self, request, *args, **kwargs):
-        id = request.data.get('id')
-        box = ChatBox.objects.filter(id=id).first()
-        data = {
-            "id": id,
-            "detail": box.detail,
-            "created_time": box.detail
-        }
-        box.delete()
-        return Response(data=data)
-
 
 class ChatMessageView(ModelViewSet):
     queryset = ChatMessage.objects.all()
