@@ -12,7 +12,6 @@ COPY . .
 
 # 设置环境变量
 ENV PYTHONUNBUFFERED=1
-ENV PORT=8000
 
 # 启动应用程序
-CMD [ "python", "manage.py", "runserver", "0.0.0.0:$PORT" ]
+CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
