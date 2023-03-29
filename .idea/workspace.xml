@@ -1,151 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="文件位置修改">
-      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DockerfileVue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/getData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMono-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/variable/JetBrainsMono-Italic[wght].ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/variable/JetBrainsMono[wght].ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-ExtraBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-ExtraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-ExtraLightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-SemiBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/webfonts/JetBrainsMono-ThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/clown-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/face-screaming-in-fear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/face-vomiting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/face-with-tongue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/face-without-mouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/hibiscus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/jack-o-lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/lips.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/loudly-crying-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/money-bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/money-mouth-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/new-moon-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/ok-hand-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/pile-of-poo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/pouting-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/rainbow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/rocket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/shamrock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/slightly-smiling-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/smiling-face-with-heart-eyes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/smiling-face-with-horns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/smiling-face-with-sunglasses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/smiling-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/sparkles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/thinking-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/thought-balloon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/thumbs-up-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/tired-face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/two-hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/emoji/victory-hand-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/excel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/ppt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/txt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/unknowfile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/word.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fileImg/zpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/head_portrait.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/head_portrait1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/head_portrait2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/head_portrait3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/money.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/snapchat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Emoji.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FileCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeadPortrait.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PersonCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/chatHome/chatwindow.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/chatHome/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/lingting.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/setting.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/video.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,6 +49,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -193,7 +63,7 @@
       <recent name="D:\PycharmProject\YourAi\apps" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.YourAi">
     <configuration name="YourAi" type="Python.DjangoServer" factoryName="Django server">
       <module name="YourAi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,6 +88,20 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.YourAi" />
+      <item itemvalue="npm.serve" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -229,7 +113,8 @@
       <updated>1679740451973</updated>
       <workItem from="1679740462750" duration="41634000" />
       <workItem from="1679917281737" duration="175000" />
-      <workItem from="1679917471378" duration="10592000" />
+      <workItem from="1679917471378" duration="11009000" />
+      <workItem from="1680101542959" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile 依赖修改">
       <created>1680010116041</created>
@@ -245,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680100377338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="前后端合二为一">
+      <created>1680101250063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680101250063</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dockerfile 依赖修改" />
     <MESSAGE value="文件位置修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件位置修改" />
+    <MESSAGE value="前后端合二为一" />
+    <option name="LAST_COMMIT_MESSAGE" value="前后端合二为一" />
   </component>
 </project>
