@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from chatgpt.models import ChatBox, ChatMessage
+from backend.apps.chatgpt.models import ChatBox, ChatMessage
 
 
 class ChatBoxSerialzier(ModelSerializer):

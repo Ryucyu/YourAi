@@ -1,18 +1,12 @@
-import ast
-
 import openai
-import json
-import os
 
 from rest_framework.filters import OrderingFilter
 from rest_framework.response import Response
-from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from YourAi.settings import OPENAI_KEY
-from chatgpt.models import ChatMessage, ChatBox
-from chatgpt.serializers import ChatBoxSerialzier, ChatMessageSerialzier
-from common import chatgpt
-from common.chatgpt import ask_gpt
+from backend.apps.chatgpt.models import ChatMessage, ChatBox
+from backend.apps.chatgpt.serializers import ChatBoxSerialzier, ChatMessageSerialzier
+from backend.common.chatgpt import ask_gpt
 
 openai.api_key = OPENAI_KEY
 

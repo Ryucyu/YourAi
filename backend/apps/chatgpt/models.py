@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from common.base_models import BaseModel
+from backend.common.base_models import BaseModel
 
 
 class ChatBox(BaseModel):

@@ -1,6 +1,6 @@
 from django.urls import path
 
-from chatgpt.views import ChatBoxView, ChatMessageView
+from backend.apps.chatgpt.views import ChatBoxView, ChatMessageView
 
 urlpatterns = [
     path('box/', ChatBoxView.as_view({"get": "list", 'post': 'create', 'delete': 'destroy'})),

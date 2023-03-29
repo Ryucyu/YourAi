@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 
-    'chatgpt.apps.ChatgptConfig',
-    'aidrawing.apps.AidrawingConfig',
+    'backend.apps.chatgpt.apps.ChatgptConfig',
+    'backend.apps.aidrawing.apps.AidrawingConfig',
 ]
 
 MIDDLEWARE = [

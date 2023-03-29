@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('chat/', include('chatgpt.urls')),
+    path('chat/', include('backend.apps.chatgpt.urls')),
 ]
