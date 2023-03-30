@@ -81,6 +81,8 @@ WSGI_APPLICATION = 'YourAi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+DEFAULT_CHARSET = 'utf-8'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
