@@ -116,7 +116,7 @@
       <workItem from="1679917281737" duration="175000" />
       <workItem from="1679917471378" duration="11009000" />
       <workItem from="1680101542959" duration="1820000" />
-      <workItem from="1680174237241" duration="1065000" />
+      <workItem from="1680174237241" duration="1772000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile 依赖修改">
       <created>1680010116041</created>
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680175559679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="前后端合二为一">
+      <created>1680176214202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680176214202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
