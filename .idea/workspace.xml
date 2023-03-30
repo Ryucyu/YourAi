@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,9 +32,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +64,7 @@
       <recent name="D:\PycharmProject\YourAi\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.YourAi">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="YourAi" type="Python.DjangoServer" factoryName="Django server">
       <module name="YourAi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +73,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="YourAi.settings" />
       </envs>
-      <option name="SDK_HOME" value="Z:\lcy\pyenv\yourai-oIsNG43b-py3.9\Scripts\python.exe" />
+      <option name="SDK_HOME" value="D:\PycharmProject\YourAi\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -115,10 +115,7 @@
       <workItem from="1679740462750" duration="41634000" />
       <workItem from="1679917281737" duration="175000" />
       <workItem from="1679917471378" duration="11009000" />
-      <workItem from="1680101542959" duration="437000" />
-      <workItem from="1680140987386" duration="1397000" />
-      <workItem from="1680142612740" duration="2818000" />
-      <workItem from="1680145577200" duration="10650000" />
+      <workItem from="1680101542959" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile 依赖修改">
       <created>1680010116041</created>
@@ -142,118 +139,13 @@
       <updated>1680101250063</updated>
     </task>
     <task id="LOCAL-00004" summary="前后端合二为一">
-      <created>1680142928733</created>
+      <created>1680102403788</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1680142928733</updated>
+      <updated>1680102403789</updated>
     </task>
-    <task id="LOCAL-00005" summary="前后端合二为一">
-      <created>1680146882291</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1680146882291</updated>
-    </task>
-    <task id="LOCAL-00006" summary="前后端合二为一">
-      <created>1680158147275</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1680158147275</updated>
-    </task>
-    <task id="LOCAL-00007" summary="前后端合二为一">
-      <created>1680158581772</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1680158581772</updated>
-    </task>
-    <task id="LOCAL-00008" summary="前后端合二为一">
-      <created>1680158720015</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1680158720015</updated>
-    </task>
-    <task id="LOCAL-00009" summary="前后端合二为一">
-      <created>1680159124785</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1680159124785</updated>
-    </task>
-    <task id="LOCAL-00010" summary="前后端合二为一">
-      <created>1680159832948</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1680159832948</updated>
-    </task>
-    <task id="LOCAL-00011" summary="前后端合二为一">
-      <created>1680160573597</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1680160573597</updated>
-    </task>
-    <task id="LOCAL-00012" summary="前后端合二为一">
-      <created>1680160946798</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1680160946798</updated>
-    </task>
-    <task id="LOCAL-00013" summary="前后端合二为一">
-      <created>1680161058320</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1680161058320</updated>
-    </task>
-    <task id="LOCAL-00014" summary="前后端合二为一">
-      <created>1680161610494</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1680161610494</updated>
-    </task>
-    <task id="LOCAL-00015" summary="前后端合二为一">
-      <created>1680162702498</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1680162702498</updated>
-    </task>
-    <task id="LOCAL-00016" summary="前后端合二为一">
-      <created>1680166771564</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1680166771564</updated>
-    </task>
-    <task id="LOCAL-00017" summary="前后端合二为一">
-      <created>1680167198930</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1680167198930</updated>
-    </task>
-    <task id="LOCAL-00018" summary="前后端合二为一">
-      <created>1680167620526</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1680167620526</updated>
-    </task>
-    <task id="LOCAL-00019" summary="前后端合二为一">
-      <created>1680167924601</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1680167924601</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +161,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dockerfile 依赖修改" />
