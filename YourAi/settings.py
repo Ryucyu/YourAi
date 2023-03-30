@@ -90,10 +90,6 @@ DATABASES = {
         'PASSWORD': '123456yu',  # 数据库用户密码
         'NAME': 'YourAi',  # 数据库名字
         'OPTIONS': {'charset': 'utf8mb4'},
-        "TEST": {
-            "CHARSET": "utf8",
-            "COLLATION": "utf8_general_ci"
-        }
     }
 }
 
