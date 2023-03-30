@@ -5,6 +5,10 @@ services:
     image: mysql:5.7 # 使用最新的MySQL镜像
     container_name: mysql5.7  # 指定一个容器名
     restart: always # 自动重启（开机后也自动启动）
+    command:
+      - mysqld
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
     ports:
       - "3306:3306" # 将容器的3306端口映射到本地的3306
     environment:
