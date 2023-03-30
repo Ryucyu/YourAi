@@ -13,15 +13,3 @@ services:
     volumes:
       - ./usr/local/mysql/conf:/etc/mysql/conf.d  # 将容器中的日志文件夹挂载到liunx对应的/var/log/mysql文件夹中
       - ./usr/local/mysql/data:/var/lib/mysql  # 将容器中的数据文件夹挂载到liunx对应的/var/lib/mysql文件夹中
-  backend:
-    build:
-      context: ./
-      dockerfile: DockerfileDjango
-    ports:
-     - "8000:8000"
-    network_mode: host
-    depends_on: # 依赖关系
-      - db
-    links:
-      - db
-    restart: always
