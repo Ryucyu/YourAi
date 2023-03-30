@@ -64,7 +64,7 @@
       <recent name="D:\PycharmProject\YourAi\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="Django Server.YourAi">
     <configuration name="YourAi" type="Python.DjangoServer" factoryName="Django server">
       <module name="YourAi" />
       <option name="INTERPRETER_OPTIONS" value="" />
