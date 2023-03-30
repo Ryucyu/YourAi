@@ -8,11 +8,13 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# 复制项目代码
+COPY . .
+
 # 数据库迁移
 RUN python manage.py makemigratios && RUN python manage.py migrate
 
-# 复制项目代码
-COPY . .
+
 
 
 # 设置环境变量
