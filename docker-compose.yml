@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  db:
+    image: mysql:5.7 # 使用最新的MySQL镜像
+    container_name: mysql5.7  # 指定一个容器名
+    restart: always # 自动重启（开机后也自动启动）
+    ports:
+      - "3306:3306" # 将容器的3306端口映射到本地的3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456yu # MySQL的root密码
+      - MYSQL_DATABASE=YourAi # 数据库名称
+    volumes:
+      - ./usr/local/mysql/conf:/etc/mysql/conf.d  # 将容器中的日志文件夹挂载到liunx对应的/var/log/mysql文件夹中
+      - ./usr/local/mysql/data:/var/lib/mysql  # 将容器中的数据文件夹挂载到liunx对应的/var/lib/mysql文件夹中
+  backend:
+    build:
+      context: ./
+      dockerfile: DockerfileDjango
+    ports:
+     - "8000:8000"
+    depends_on: # 依赖关系
+      - db
+    links:
+      - db
+    restart: always
+
