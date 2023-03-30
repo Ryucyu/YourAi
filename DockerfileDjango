@@ -19,3 +19,4 @@ RUN python manage.py migrate
 # 设置环境变量
 ENV PYTHONUNBUFFERED=1
 
+CMD ['python', 'manage.py', 'runserver', '0.0.0.0:8000']
