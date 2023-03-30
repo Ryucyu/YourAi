@@ -27,4 +27,12 @@ services:
       - db
     restart: always
 
+  frontend:
+    build:
+      context: ./
+      dockerfile: DockerfileVue
+    ports:
+      - "80:80"
+    restart: always
+
 
