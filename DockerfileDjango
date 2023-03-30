@@ -12,7 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 数据库迁移
-RUN python manage.py makemigrations && RUN python manage.py migrate
+RUN python manage.py makemigrations
+RUN python manage.py migrate
 
 
 # 设置环境变量
