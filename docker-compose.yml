@@ -1,19 +1,6 @@
 version: "3"
 
 services:
-  backend:
-    build:
-      context: ./
-      dockerfile: DockerfileDjango
-    ports:
-      - "8000:8000"
-    network_mode: host
-    depends_on:
-      db:
-        condition: service_started
-    links:
-      - db
-    restart: always
   db:
     image: mysql:5.7 # 使用最新的MySQL镜像
     container_name: mysql5.7  # 指定一个容器名
@@ -26,4 +13,18 @@ services:
     volumes:
       - ./usr/local/mysql/conf:/etc/mysql/conf.d  # 将容器中的日志文件夹挂载到liunx对应的/var/log/mysql文件夹中
       - ./usr/local/mysql/data:/var/lib/mysql  # 将容器中的数据文件夹挂载到liunx对应的/var/lib/mysql文件夹中
+
+  backend:
+    build:
+      context: ./
+      dockerfile: DockerfileDjango
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_started
+    links:
+      - db
+    restart: always
+
 
