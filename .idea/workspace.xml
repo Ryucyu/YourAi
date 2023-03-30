@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一" />
+    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +118,7 @@
       <workItem from="1680101542959" duration="437000" />
       <workItem from="1680140987386" duration="1397000" />
       <workItem from="1680142612740" duration="2818000" />
-      <workItem from="1680145577200" duration="9981000" />
+      <workItem from="1680145577200" duration="10650000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile 依赖修改">
       <created>1680010116041</created>
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680167620526</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="前后端合二为一">
+      <created>1680167924601</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680167924601</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
