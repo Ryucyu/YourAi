@@ -17,6 +17,7 @@ services:
     build:
       context: ./
       dockerfile: DockerfileDjango
+    entrypoint: ["./wait.sh"]
     ports:
      - "8000:8000"
     depends_on: # 依赖关系

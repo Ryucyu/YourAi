@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'YourAi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'db',  # 数据库主机
+        'HOST': '8.218.203.107',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'root',  # 数据库用户名
         'PASSWORD': '123456yu',  # 数据库用户密码
