@@ -19,8 +19,8 @@ services:
       dockerfile: DockerfileDjango
     ports:
      - "8000:8000"
-    depends_on: # 依赖关系
     network_mode: host
+    depends_on: # 依赖关系
       - db
     links:
       - db
