@@ -15,8 +15,6 @@ COPY . .
 RUN python manage.py makemigratios && RUN python manage.py migrate
 
 
-
-
 # 设置环境变量
 ENV PYTHONUNBUFFERED=1
 
