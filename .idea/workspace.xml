@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,7 @@
       <workItem from="1679917471378" duration="11009000" />
       <workItem from="1680101542959" duration="1820000" />
       <workItem from="1680174237241" duration="8115000" />
-      <workItem from="1680320038687" duration="5297000" />
+      <workItem from="1680320038687" duration="5596000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile 依赖修改">
       <created>1680010116041</created>
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680183147712</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="前后端合二为一">
+      <created>1680332780859</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680332780859</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

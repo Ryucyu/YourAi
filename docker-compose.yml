@@ -18,20 +18,20 @@ services:
       - ./usr/local/mysql/conf:/etc/mysql/conf.d  # 将容器中的日志文件夹挂载到liunx对应的/var/log/mysql文件夹中
       - ./usr/local/mysql/data:/var/lib/mysql  # 将容器中的数据文件夹挂载到liunx对应的/var/lib/mysql文件夹中
 
-  backend:
-    build:
-      context: ./
-      dockerfile: DockerfileDjango
-    ports:
-      - "7999:7999"
-    links:
-      - db
-    restart: always
+#  backend:
+#    build:
+#      context: ./
+#      dockerfile: DockerfileDjango
+#    ports:
+#      - "7999:7999"
+#    links:
+#      - db
+#    restart: always
 
   frontend:
     build:
       context: ./
-      dockerfile: DockerfileVue
+#      dockerfile: DockerfileVue
     ports:
       - "80:80"
     restart: always
