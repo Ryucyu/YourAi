@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aaa1b92e-23ca-4a1c-bf49-b52a8d5d0f67" name="Changes" comment="前后端合二为一" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\PyCharm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -117,7 +116,7 @@
       <workItem from="1679917471378" duration="11009000" />
       <workItem from="1680101542959" duration="1820000" />
       <workItem from="1680174237241" duration="8115000" />
-      <workItem from="1680320038687" duration="7502000" />
+      <workItem from="1680320038687" duration="8192000" />
     </task>
     <task id="LOCAL-00001" summary="dockerfile 依赖修改">
       <created>1680010116041</created>
@@ -252,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680334688597</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="前后端合二为一">
+      <created>1680350551135</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680350551135</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
