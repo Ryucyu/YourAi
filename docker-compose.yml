@@ -34,6 +34,8 @@ services:
 #      dockerfile: DockerfileVue
     ports:
       - "80:80"
+    links:
+      - db
     restart: always
 
 
